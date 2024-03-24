@@ -125,12 +125,6 @@ As well as the above, you should now get these more detailed logs:
 
 If you want to see even more you can change the log verbosity from `info` to `debug` or even `trace`, but then you will see a whole flood of information you might not always need.
 
-:::tip Even more logging
-
-If you're curious to see _even_ more then you can enable logging for _everything_ (that is, even logs from dependencies) via: `RUST_LOG=debug cargo run`.
-
-:::
-
 ## GraphQL playground
 
 How can we actually check that the node is running? When starting `aquadoggo` it will automatically open an HTTP server on port `2020` with an GraphQL API. On top of that it offers a playground for us to already play with the GraphQL API. We can visit it by opening our browser and going to:
